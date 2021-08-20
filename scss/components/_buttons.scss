@@ -8,6 +8,7 @@
   
   .default {
     background-color:$btn-default;
+    transition: .5s ease-in;
     &:hover{
       background-color: $btn-default-hover;
     }
@@ -15,6 +16,7 @@
   
   .error {
     background-color:$btn-error;
+    transition: .5s ease-in;
     &:hover{
       background-color: $btn-error-hover;
     }
@@ -22,6 +24,7 @@
   
   .info {
     background-color:$btn-info;
+    transition: .5s ease-in;
     &:hover{
       background-color: $btn-info-hover;
     }
@@ -29,6 +32,7 @@
   
   .success {
     background-color: $btn-success;
+    transition: .5s ease-in;
     &:hover{
       background-color: $btn-success-hover;
     }
@@ -36,6 +40,7 @@
   
   .warning {
     background-color:$btn-warning;
+    transition: .5s ease-in;
     &:hover{
       background-color: $btn-warning-hover;
     }

@@ -3,8 +3,8 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
-    color: #777;
+    font-family: $main-font;
+    color:$color-text;
     box-sizing: border-box;
   }
   
@@ -22,26 +22,26 @@
   /* ============================================= */
   
   .headline-primary {
-    color: #58e1c1;
+    color: $color-primary;
     margin-left: 10px;
   }
   
   .headline-secondary {
-    font-weight: 300;
-    color: #777;
+    font-weight: $font-thin;
+    color: $color-text;
   }
   
   .link {
-    color: #51ddfc;
-    font-weight: 700;
+    color: $color-secondary;
+    font-weight: $font-bold;
   }
   
   .blockquote {
-    font-size: 1.5em;
-    font-weight: 300;
-    font-style: italic;
+    font-size: $font-size;
+    font-weight: $font-thin;
+    font-style: $font-style;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $color-primary;
     border-radius: 5px;
   }
