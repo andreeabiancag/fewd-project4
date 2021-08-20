@@ -1,0 +1,37 @@
+
+@mixin center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Media Queries IF
+
+@mixin media-que($media) {
+    @if $media == 'xs'{
+        @media (min-width: $media-xs){
+            @content;
+        }
+    }
+    @else if $media == 'l'{
+        @media (min-width: $media-l){
+            @content;
+        }
+    }
+    @else{
+        @error "This Media Query doesn't exist";
+    }
+    
+}
+
+// Buttons
+
+@mixin but{
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

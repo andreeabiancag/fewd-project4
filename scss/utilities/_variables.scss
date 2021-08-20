@@ -1,0 +1,45 @@
+// Colors 
+
+$white:#fff;
+$color-text:#777;
+$color-primary:#58e1c1;
+$color-secondary:#51ddfc;
+
+//----Buttons 
+
+$btn-default:$color-secondary;
+$btn-default-hover:lighten($btn-default, 15%);
+
+$btn-error:#e4757a;
+$btn-error-hover:lighten($btn-error, 15%);
+
+$btn-info:#927bc1;
+$btn-info-hover:lighten($btn-info, 15%);
+
+$btn-success: #63cc82;
+$btn-success-hover:lighten($btn-success, 15%);
+
+$btn-warning: #fd7856;
+$btn-warning-hover:lighten($btn-warning, 15%);
+
+//----Fonts
+
+$main-font: 'Lato', sans-serif;
+$font-size: 1.5em;
+$font-thin: 300;
+$font-bold: 700;
+$font-style: italic;
+
+$max-width: 1400px;
+
+//----Media queries 
+
+$media-xs: 768px;
+$media-l: 1200px;
+
+
+
+
+
+
+
